@@ -1,0 +1,358 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="keywords"
+content="recreation,mathematic,geometry,domino,puzzle,combine,tiling,2D,3D,surface,cubenet,congruent,symmetry,rotate,flip,put-together,toy,game,趣味,數學,幾何,骨牌,謎題,益智,拼圖,排列,組合,佈滿,平面,立體,表面積,展開圖,
+全等,對稱,旋轉,翻轉,教具,玩具,積木,遊戲">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>My Puzzle Note</title>
+</head>
+
+<body bgcolor="#FFFFFF" link="#808000">
+
+<p><font face="新細明體">訪客: </font><img
+src="http://counter.educities.edu.tw/cgi-bin/Count.cgi?dd=C&amp;df=43292&amp;ft=5&amp;md=6">
+<font face="新細明體">Since:2000/06/19</font> <font
+face="新細明體">上次修改日期 Last Update: <!--webbot
+bot="TimeStamp" startspan s-type="EDITED" s-format="%Y/%m/%d" -->2000/10/12<!--webbot
+bot="TimeStamp" i-checksum="12279" endspan -->。</font></p>
+
+<h1><font color="#004040" size="7" face="新細明體">拼圖筆記</font><font
+color="#008000" size="7" face="新細明體"><em><strong> </strong></em></font><font
+color="#000000" size="4" face="新細明體"><em><strong>高文山</strong></em></font><font
+color="#008000" size="7" face="新細明體"><em><strong> </strong></em></font><font
+color="#000000" size="5" face="新細明體"><em><strong>咱欲位台灣飛出去</strong></em></font><font
+color="#008000" size="7" face="新細明體"><em><strong><br>
+</strong></em></font><font color="#008000" size="6"
+face="新細明體">My Puzzle Note</font><font color="#008000"
+size="7" face="新細明體"><em> </em></font><font
+color="#000000" size="3" face="新細明體"><em>by Wen-Shan Kao </em></font><font
+color="#000000" size="4" face="新細明體">from Taiwan</font></h1>
+
+<p><font color="#000000" size="4" face="細明體">If you cannot
+see any Chinese (big-5) characters in this page,you can also read
+the abstract in English.</font></p>
+
+<h1><a
+href="http://residence.educities.edu.tw/proteon/note111.htm"><font
+color="#000000" size="3" face="細明體"><strong><img
+src="image/shexcube35.gif"
+alt="35pcs Hexominoes cover a box with buckles." border="0"
+width="137" height="166"></strong></font></a><font
+color="#000000" size="3" face="細明體"><strong> </strong></font><a
+href="note1.htm"><font color="#000000" size="3" face="細明體"><strong><img
+src="image/ZDLG.jpg"
+alt="The Z , Duck , &amp; Left-Hand-Gun shape." border="0"
+width="60" height="189"></strong></font></a><font color="#000000"
+size="3" face="細明體"><strong> </strong></font><a
+href="newtaiwan.htm"><font color="#000000" size="3"
+face="細明體"><strong><img src="image/taiwan.jpg"
+alt="The puzzle map of Taiwan" border="0" width="114"
+height="189"></strong></font></a></h1>
+
+<p><font color="#804040" size="3" face="新細明體">關鍵字：
+</font><font color="#008000" size="3" face="新細明體">趣味數學、
+組合數學、 幾何學、 多方塊、 骨牌、 謎題、
+拼圖、 組合、 佈滿、 平面、 立體、 表面積、
+展開圖、 全等、 對稱、 旋轉、 翻轉、 玩具、
+遊戲、.....</font></p>
+
+<p align="left"><font color="#804040" size="4"
+face="新細明體">Keywords:</font><font color="#008000"
+size="4" face="新細明體"> Recreational Mathematic,
+Combinatorics, Geometry, polyforms, dissection, polyominoes,
+domino, puzzle, tiling, 2D, 3D, surface, cube net, congruent,
+symmetry, rotate, flip, put together, toy, game, ......</font></p>
+
+<hr>
+
+<h2><a name="靠上"><font face="新細明體">就是這些
+Contents</font></a><font face="新細明體"> </font></h2>
+
+<ul type="disc">
+    <li><a href="#projects"><font face="新細明體">好戲上場囉？
+        What's new ?</font></a></li>
+    <li><a href="#hotlist"><font face="新細明體">新歡舊愛
+        My favorite sites</font></a></li>
+    <li><a href="#bio"><font face="新細明體">大條代誌 Big
+        event</font></a><font face="新細明體"> </font></li>
+    <li><a href="#interests"><font face="新細明體">真情告白
+        Who am I ?</font></a><font face="新細明體"> </font><font
+        color="#FF0000" face="新細明體">under construction</font><font
+        face="新細明體"> </font></li>
+    <li><a href="#contactinfo"><font face="新細明體">萬里追蹤
+        Contact me</font></a><font face="新細明體"> </font></li>
+    <li><a href="#comments"><font face="新細明體">申訴專欄
+        Sign my guest book</font></a><font face="新細明體"> </font></li>
+    <li><a href="#jobinfo"><font face="新細明體">逗陣來打拼
+        Our team</font></a><font face="新細明體"> </font><font
+        color="#FF0000" face="新細明體">under construction</font><font
+        face="新細明體"> </font></li>
+</ul>
+
+<hr>
+
+<h2><a name="projects"><font face="新細明體">好戲上場囉？
+What's new ?</font></a></h2>
+
+<ul type="square">
+    <li><font color="#808000" face="新細明體">Note 1: </font><font
+        color="#FF0000" face="新細明體">2000/08/09 update</font><font
+        color="#808000" face="新細明體"> </font><a
+        href="note1.htm"><font face="新細明體">用12片五格骨牌佈滿正六面體表面
+        12 Pentominoes cover a cube by 6 congruent shapes</font></a><font
+        face="新細明體">
+        如果你找到了第四個形狀請通知我。Can you
+        find the 4th shape ? Please let me know.</font></li>
+    <li><font color="#808000" face="新細明體">Note 1.1: </font><font
+        color="#FF0000" face="新細明體">2000/06/19 post</font><font
+        color="#808000" face="新細明體"> </font><a
+        href="note11.htm"><font face="新細明體">&quot;Z&quot;形總解答
+        The 1st &quot;Z&quot; shape total solutions</font></a></li>
+    <li><font color="#808000" face="新細明體">Note 1.1.1: </font><font
+        color="#FF0000" face="新細明體">2000/09/23 update</font><font
+        color="#808000" face="新細明體"> </font><a
+        href="note111.htm"><font face="新細明體">找更多的&quot;Z&quot;形
+        More about the big &quot;Z&quot; shapes</font></a></li>
+    <li><font color="#808000" face="新細明體">Note 1.2: </font><font
+        color="#FF0000" face="新細明體">2000/08/09 post</font><font
+        color="#808000" face="新細明體"> </font><a
+        href="note12.htm"><font face="新細明體">&quot;鴨&quot;形總解答
+        The 2nd &quot;Duck&quot; shape total solutions </font></a></li>
+    <li><font color="#808000" face="新細明體">Note 1.3: </font><font
+        color="#FF0000" face="新細明體">2000/09/14 update</font><font
+        color="#808000" face="新細明體"> </font><a
+        href="note13.htm"><font face="新細明體">&quot;左手槍&quot;形總解答
+        The 3rd &quot;Left-hand Gun&quot; shape total solutions</font></a></li>
+    <li><font color="#FF0000" face="新細明體"><u>最新 18
+        巧板拼圖最ㄅ一ㄤˋ(The 18 pcs miracle puzzle is
+        coming soon?)</u></font></li>
+    <li><font color="#FF0000" face="新細明體"><u>還有什麼新點子嗎?請大家拭目以待。</u></font><font
+        face="新細明體"><u> </u></font></li>
+</ul>
+
+<p><a href="../untile.htm"><font face="新細明體"><!--webbot
+bot="PurpleText"
+preview="您可以從上面的專案名稱，建立指向包含專案內容的 Web 畫面連結。"
+s-viewable=" " --></font></a></p>
+
+<h5><a href="#靠上"><font face="新細明體">回到頂端 Top</font></a></h5>
+
+<hr>
+
+<h2><a name="hotlist"><font face="新細明體">新歡舊愛 My
+favorite Sites</font></a></h2>
+
+<ol>
+    <li><a
+        href="http://home.att.net/~vgoffin/vincent/pentomino/index.html"><font
+        face="新細明體">Happy Pentominoes</font></a><font
+        face="新細明體"> 美國彩色「五格骨牌」求解Java程式，除了常見拼圖外,還可簡單自行改變拼圖外框求解，速度飛快無比，絕對讓你好看。</font></li>
+    <li><a
+        href="http://www.xs4all.nl/~gp/PolyominoSolver/Polyomino.html"><font
+        face="新細明體">Gerard's Polyomino Solution Engine</font></a><font
+        face="新細明體">
+        荷蘭「吉拉氏」多格骨牌求解引擎。各級多格骨牌混合求解，並可自創骨牌樣式、出現次數、是否翻轉、畫面解析度等參數，功能強悍不可不看。</font></li>
+    <li><a href="http://www.geocities.com/alclarke0/"><font
+        face="新細明體">The Poly Pages</font></a><font
+        face="新細明體">
+        各種拼圖樣式總燴並分類介紹相關網站不看可惜。</font></li>
+    <li><a href="http://alpha.ujep.cz/~vicher/puzzle/"><font
+        face="新細明體">Miroslav Vicher's puzzle page</font></a><font
+        face="新細明體">
+        捷克「維克氏」拼圖總攬。目前網路上蒐集最多，且能公佈各種2D拼圖解答總數之站，保證讓你過癮。如果你有自創拼圖無法求解可試著找他幫忙。</font></li>
+    <li><p align="left"><a
+        href="http://www.geocities.com/liviozuc/"><font
+        face="新細明體">Livio Zucca's site</font></a><font
+        face="新細明體">
+        義大利「薩卡氏」網站。該兄發明多樣拼圖，有心向高難度挑戰者可以一試，上站瞧瞧不虛此行。本人拙作承蒙刊載，並列友人之一，不得不介紹他。</font><font
+        size="5" face="新細明體"><strong>To cover a solid</strong></font><font
+        size="6" face="新細明體"><b> </b></font><a
+        href="http://residence.educities.edu.tw/proteon"><font
+        face="新細明體">Wen-Shan Kao</font></a><font
+        face="新細明體"> has many others.真歹勢啦？</font></p>
+    </li>
+    <li><a href="http://www.mathpuzzle.com/index.html"><font
+        face="新細明體">MathPuzzle.Com</font></a><font
+        face="新細明體">
+        美國最大數學謎題網站，介紹數學相關網站最新消息，有空就要進去閒逛，隨時會有最新消息，保證是第一手資料?
+        </font><font size="5" face="新細明體"><strong>Other
+        Links</strong></font><font size="6" face="新細明體"> </font><font
+        face="新細明體">--&nbsp; </font><a
+        href="http://residence.educities.edu.tw/proteon/note1.htm"><font
+        color="#000000" face="新細明體">Covering the cube
+        with pentominoes</font></a><font color="#000000"
+        face="新細明體"> 也給我連上了</font><font
+        face="新細明體">。</font></li>
+    <li><a
+        href="http://www.ics.uci.edu/~eppstein/junkyard/polyomino.html"><font
+        face="新細明體">Geometry Junkyard - Polyominoes and
+        Other Animals</font></a><font face="新細明體">
+        美國加大Irvine分校電算系教授 David Eppstein
+        ，他的幾何垃圾場蒐藏最多數學網站，進站閒逛一定會有收穫。他也說多格骨牌摺疊成正立方體要看我的啦？See
+        also </font><a
+        href="http://residence.educities.edu.tw/proteon/note1.htm"><font
+        face="新細明體">proteon's polyomino cube-unfoldings</font></a><font
+        face="新細明體"> .</font></li>
+    <li><font color="#FF0000" face="新細明體"><u>???????????????</u></font><font
+        face="新細明體"> (保留給你推薦)</font></li>
+</ol>
+
+<p><font face="新細明體"><!--webbot bot="PurpleText"
+preview="您可以進一步細分成不同的類別，或者超過一個畫面的大小時，可以移到其它畫面。"
+s-viewable=" " --></font></p>
+
+<h5><a href="#靠上"><font face="新細明體">回到頂端 Top</font></a></h5>
+
+<hr>
+
+<h2><a name="bio"><font face="新細明體">大條代誌 Big
+event</font></a></h2>
+
+<p><font face="新細明體"><em>2000/10/11</em>
+中英文版留言簿開張，歡迎吐嘈。( Send me some
+comments in my guest book , &quot; Support HTML code &quot;.)</font></p>
+
+<p><font face="新細明體"><em>2000/06/19</em>
+今天生日，網站開張，不吐不快。(Today is my
+birthday and post &quot;My pazzle note&quot; pages.)</font></p>
+
+<dl>
+    <dt><font face="新細明體"><em>2000/01/02 </em>突發奇想，舉世譁然
+        。</font><a href="35hexbox.htm"><font color="#808000"
+        face="新細明體">&quot;35片六格骨牌佈滿正六面體盒子並附扣環&quot;
+        ( The 35 Hexominoes folded to cover a Box with Buckles)</font><font
+        face="新細明體"> </font></a></dt>
+    <dd>　</dd>
+    <dt><font face="新細明體"><em>2000/01/01 </em>總統大選，我也來湊熱鬧
+        。</font><a href="newtaiwan.htm"><font color="#808000"
+        face="新細明體">&quot;35片六格骨牌佈滿台灣地圖&quot;
+        (The puzzle map of Taiwan)</font></a></dt>
+    <dd>　</dd>
+    <dt><font face="新細明體"><em>1999/12/19 </em>意外發現。</font><a
+        href="cube23.htm"><font color="#808000"
+        face="新細明體">&quot;12片五格骨牌佈滿正六面體之表面&quot;
+        (The 12 Pentominoes folded to cover a Cube.)</font></a></dt>
+    <dd>　</dd>
+</dl>
+
+<h5><a href="#靠上"><font face="新細明體">回到頂端 Top</font></a></h5>
+
+<hr>
+
+<h2><a name="interests"><font face="新細明體">真情告白
+Who am I ?</font></a><font face="新細明體"> </font><font
+color="#FF0000" size="3" face="新細明體">under construction</font></h2>
+
+<dl>
+    <dt><font face="新細明體">剪剪切切 折折貼貼</font></dt>
+    <dd><font color="#FF0000" face="新細明體">施工中...</font><font
+        face="新細明體"> </font></dd>
+    <dd>　</dd>
+</dl>
+
+<p><font face="新細明體"><!--webbot bot="PurpleText"
+preview="您可以從上面的畫面，建立指向包含詳細資訊的 Web 畫面。"
+s-viewable=" " --></font></p>
+
+<h5><a href="#靠上"><font face="新細明體">回到頂端 Top</font></a></h5>
+
+<hr>
+
+<h2><a name="contactinfo"><font face="新細明體">萬里追蹤
+Contact me</font></a></h2>
+
+<p><font face="新細明體"><br>
+電子郵件地址 My E-mail</font></p>
+
+<p><a href="mailto:proteon@ms51.hinet.net"><font
+face="新細明體">proteon@ms51.hinet.net</font></a><font
+face="新細明體"> </font></p>
+
+<p><a href="mailto:w49y07n2@ms6.hinet.net"><font
+face="新細明體">w49y07n2@ms6.hinet.net</font></a></p>
+
+<p><font face="新細明體"><br>
+網址 My Web Sites :<strong> </strong></font></p>
+
+<p><font face="新細明體">亞卓市 Main site <strong>edu</strong>
+: </font><a href="http://residence.educities.edu.tw/proteon"><font
+face="新細明體">http://residence.educities.edu.tw/proteon</font></a><font
+face="新細明體"> </font></p>
+
+<p><font face="新細明體">Mirror site <strong>pchome</strong>
+: </font><a href="http://home.pchome.com.tw/soho/polyhex/"><font
+face="新細明體">http://home.pchome.com.tw/soho/polyhex/</font></a></p>
+
+<p><font face="新細明體">Mirror site <strong>renren</strong>:
+</font><a href="http://home.pchome.com.tw/soho/polyhex/"><font
+face="新細明體">http://homepage.renren.com/proteon</font></a></p>
+
+<p><font face="新細明體">地址：台北市衡陽路36號8樓之8
+Add: 8F- 8 No.36 Heng-Yang Rd. Taipei , Taiwan</font></p>
+
+<p><font face="新細明體">電話 Tel: 886-2-2381-3041 傳真
+Fax: 886-2-2371-8479 行動 Cell-phone: 886-938-084912<br>
+</font></p>
+
+<h5><a href="#靠上"><font face="新細明體">回到頂端 Top</font></a></h5>
+
+<hr>
+
+<h2><a name="comments"><font face="新細明體">申訴專欄
+Sign my guest book</font></a><font face="新細明體"> </font></h2>
+
+<h5><a href="http://www.fgb.to/cgi-bin/gb/gb.cgi?master=proteon"><font
+color="#808000" size="4" face="新細明體">中文 ( Big 5 )
+留言簿</font></a><font color="#808000" size="4"
+face="新細明體"> </font><font color="#808000" size="3"
+face="新細明體">可使用HTML語法喔!</font></h5>
+
+<h5><a href="http://en.fgb.to/cgi-bin/gb/gb.cgi?master=proteon"><font
+color="#FF0000" size="4" face="新細明體">English Guest book</font></a><font
+color="#FF0000" size="4" face="新細明體"> Support HTML code.</font></h5>
+
+<h5><a href="#靠上"><font face="新細明體">回到頂端 Top</font></a></h5>
+
+<hr>
+
+<h2><a name="jobinfo"><font face="新細明體">逗陣來打拼
+Our team</font></a><font face="新細明體"> </font><font
+color="#FF0000" size="3" face="新細明體">under construction</font></h2>
+
+<p><font face="新細明體">工作職稱 主要職責<br>
+</font><font color="#FF0000" face="新細明體">施工中...</font><font
+face="新細明體"> </font></p>
+
+<p><font face="新細明體">部門或工作群組</font></p>
+
+<p><font color="#FF0000" face="新細明體">施工中...</font><font
+face="新細明體"> </font></p>
+
+<p><font face="新細明體"><br>
+</font><a href="http://dept-server/"><font face="新細明體">部門名稱<!--webbot
+bot="PurpleText" preview="建立部首頁連結" s-viewable=" "
+--></font></a><font face="新細明體"> </font><font
+color="#FF0000" size="3" face="新細明體">under construction</font></p>
+
+<p><font face="新細明體"><!--webbot bot="PurpleText"
+preview="變更上面指向實際員工首頁、部門 Web 伺服器的範例連結。"
+s-viewable=" " --></font></p>
+
+<h5><a href="#靠上"><font face="新細明體">回到頂端 Top</font></a></h5>
+
+<hr>
+
+<h5><font face="新細明體">版權 </font><font color="#000000"
+size="4" face="新細明體"><em>高文山</em></font><font
+face="新細明體"> 所有，轉載請告知。 (C) 2000
+Copyright By <em>Wen-Shan Kao</em> , All World Wide Right
+Reserved.</font></h5>
+
+<h5><font face="新細明體"><br>
+上次修改日期 Last Update: <!--webbot bot="TimeStamp"
+startspan s-type="EDITED" s-format="%Y/%m/%d" -->2000/10/12<!--webbot
+bot="TimeStamp" i-checksum="12279" endspan --></font></h5>
+</body>
+</html>
