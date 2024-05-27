@@ -1,0 +1,793 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>note111</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><font color="#804040" size="5"
+face="新細明體"><strong>&quot;Z&quot; 圖形 與 畢氏定理     
+(商高定理、勾股弦定理)</strong></font></p>  
+  
+<ul>  
+    <li><font face="新細明體">我目前找到的三種十格骨牌(     
+        Dekominoes )圖形中，最優美的圖形就是&quot;Z&quot;圖形，因為它的剪貼外框是最整齊的，並由畢氏定理的證明方法之一，可以導出這個&quot;Z&quot;圖形。也就是說：任意兩個非零的正整數，在     
+        b 不等於 a 的條件下，六個全等的 &quot;Z&quot;     
+        圖形，可以連結成正六面體的展開圖。雖然     
+        b = a的情形下，中央方塊邊長L = 0 (     
+        沒有中央方塊 )，這個基本的圖形就不是標準多方塊的連結     
+        (multiply connected的情形 Golomb教授把它另稱作pseudo-n-ominoes     
+        ) ，但是相同的六個圖形仍然可以連結成正六面體的展開圖，只是展開圖會有不相連的區塊產生。</font></li>     
+    <li><font face="新細明體">George E. Martin先生的一本也是多方塊(     
+        Polyominoes </font><a href="http://ccmp.tacomall.com.tw/"><font     
+        face="新細明體">九章出版社</font></a><font  
+        face="新細明體">有進口)為書名的第153頁，&quot;The     
+        Z's&quot;一節對各種&quot;Z&quot;     
+        圖形的表示方式     
+        ，有很詳細的定義。這一節更討論各種的     
+        &quot;Z&quot; 圖形如何舖滿平面，其中的第一種     
+        &quot;Z&quot;，Z ( b,b,a,a )     
+        正是符合上述的推論，而舖滿平面的方式也跟我的展開圖完全一致，只是George     
+        E. Martin先生沒有發現，其中部份相連的六個圖形，是可以摺疊成正六面體？！</font></li>     
+</ul>  
+  
+<p align="center"><img src="image/moreZs.gif" width="607" height="600"></p>  
+  
+<ul>  
+    <li><font face="新細明體">Reference: </font><font     
+        size="4" face="新細明體">POLYOMINOES </font><font  
+        size="3" face="新細明體">A Guide to Puzzles and  
+        Problems in Tiling by GEORGE E. MARTIN. P153 The <em>Z </em>'s  
+        .</font></li>  
+    <li> 
+      <h1><font face="新細明體" size="3">Several geometric proofs of the <a href="http://www.cut-the-knot.com/pythagoras/index.html">Pythagorean 
+      Theorem</a> by<font size="-1"> <a href="http://www.cut-the-knot.com">Alexander 
+      Bogomolny</a></font></font><font size="-1" face="新細明體">.</font></h1>
+    </li> 
+    <li><a 
+        href="http://mathworld.wolfram.com/PythagoreanTheorem.html"><font 
+        face="新細明體">Pythagorean Theorem</font></a> <font 
+        face="新細明體">by Eric W. Weisstein and Wolfram 
+        Research, Inc.</font></li> 
+</ul> 
+ 
+<hr align="center"> 
+ 
+<ul> 
+    <li><font color="#FF8000" size="5" face="新細明體"><strong>&quot;Z&quot;     
+        圖形的拼湊 </strong></font><font color="#000000"     
+        size="3" face="新細明體"><strong>與</strong></font><font  
+        color="#FF8000" size="5" face="新細明體"> <strong>勾股弦定理證明</strong></font><font  
+        color="#000000" size="4" face="新細明體">DIY</font><font  
+        color="#FF0080" size="5" face="新細明體"> </font></li>  
+    <li><font size="3" face="新細明體">如果您喜歡動手玩數學請看</font><a  
+        href="http://abel.tmtc.edu.tw/"><font size="3"  
+        face="新細明體">林保平老師的數理教育LIVE秀</font></a><font  
+        size="3" face="新細明體">。</font></li>  
+    <li><font size="3" face="新細明體">請先閱讀林老師的  
+        </font><a  
+        href="http://abel.tmtc.edu.tw/helpfolder/相補htm5.htm"><font  
+        size="3" face="新細明體">『內外相補』操作說明</font></a><font  
+        size="3" face="新細明體">後再回來，選程式類『內外相補』項下的『內補』選項就可以</font><font  
+        color="#FF0000" size="3" face="新細明體">自行搬移、旋轉圖塊，如下圖</font><font  
+        size="3" face="新細明體">：(感謝台北市立師範學院數理教育學系林保平副教授同意提供畫面)</font></li>  
+    <li><font size="3" face="新細明體">滑鼠左鍵</font><font  
+        color="#FF0000" size="3" face="新細明體">按住弦方點移動</font><font  
+        color="#000000" size="3" face="新細明體">，</font><font  
+        size="3" face="新細明體">您可以發現很多的證明方法？     
+        ( 梅文鼎？劉徽？........)</font></li>     
+    <li><font size="3" face="新細明體">還有林老師的程式類『切割原理、勾股拼圖、勾股證明』等，都是相關議題一定要看，否則會後悔？</font></li>  
+    <li><font size="3" face="新細明體">參考書：</font><a  
+        href="http://math.ntnu.edu.tw/~horng/main.htm"><font  
+        size="3" face="新細明體">HPM通訊</font></a><font  
+        size="3" face="新細明體">第一卷第一、二期，第二卷第七、十二期。</font></li>  
+</ul>  
+  
+<p align="center"><font size="3" face="新細明體"><img  
+src="image/pythagoras.gif" width="639" height="381"></font></p>  
+  
+<hr align="center">  
+  
+<ul>  
+    <li><font face="新細明體">兩個非零整數平方和問題，</font><a  
+        href="http://math.ntnu.edu.tw/~maco/index.html"><font  
+        face="新細明體">許志農教授</font></a><font  
+        face="新細明體">的數學講義：“算術” 24. </font><a     
+        href="http://math.ntnu.edu.tw/~maco/arith24.html"><font  
+        face="新細明體">平方和問題</font></a><font  
+        face="新細明體">，很值得參考。</font></li>  
+    <li><font face="新細明體">這裡有中國大陸肖剛先生的如何『</font><a  
+        href="http://wims.unice.fr/~wims/wims.cgi?session=CI01A0BFDD.2&amp;lang=cn&amp;module=tool%2Fnumber%2Ftwosquares.cn"><font  
+        face="新細明體">將一個正整數分解為2個整數的平方和</font></a><font  
+        face="新細明體">』線上立即服務程式。</font></li>  
+    <li><font face="新細明體">把 </font><a  
+        href="http://www.research.att.com/"><font  
+        face="新細明體">AT&amp;T</font></a><font  
+        face="新細明體"> 的 </font><a     
+        href="http://www.research.att.com/~njas/sequences/index.html"><font  
+        face="新細明體">Integer Sequences Research</font></a><font     
+        face="新細明體"> 網站上的 </font><a     
+        href="http://www.research.att.com/cgi-bin/access.cgi/as/njas/sequences/eisA.cgi?Anum=A024509"><font  
+        face="新細明體">Sum of 2 nonzero squares, including     
+        repetitions 數列(A024509)</font></a><font     
+        face="新細明體">  
+        通通放進去求解，可以拼湊出以下</font><font     
+        size="3" face="新細明體">&quot;Z&quot;     
+        圖形的組裝表</font><font face="新細明體">哩！</font></li>  
+</ul>  
+  
+<div align="center">
+  <center>  
+  
+<table border="2" cellpadding="10">  
+    <caption align="top"><font color="#008000" size="5"  
+    face="新細明體"><strong>1~50 &quot;Z&quot;     
+    圖形的組裝表</strong></font></caption>  
+    <tr>  
+        <td bgcolor="#00FFFF"><font face="新細明體">表面積=平方和*6</font><p  
+        align="center"><font face="新細明體">&quot; Z &quot;  
+        *6 </font></p>  
+        <p align="center"><font face="新細明體">cube net</font></p>  
+        </td>  
+        <td bgcolor="#00FFFF"><font size="3" face="新細明體">平方和=</font><font  
+        color="#FF0000" size="3" face="新細明體">a</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">b</font><font  
+        size="3" face="新細明體">^2</font><p align="center"><font  
+        size="3" face="新細明體">&quot; Z &quot;=</font><font  
+        color="#FF0000" size="3" face="新細明體"> a</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">b</font><font  
+        size="3" face="新細明體">^2</font></p>  
+        <p><font face="新細明體">SUM of 2 squares</font></p>  
+        </td>  
+        <td bgcolor="#00FFFF"><p align="center"><font  
+        face="新細明體">方塊</font></p>  
+        <p align="center"><font face="新細明體">差方</font></p>  
+        <p><font face="新細明體">SQUARE</font></p>  
+        </td>  
+        <td bgcolor="#00FFFF"><p align="center"><font  
+        color="#000000" face="新細明體">| a - b |</font></p>  
+        <p><font color="#000000" face="新細明體">勾股差</font></p>  
+        <p align="center"><font color="#000000"  
+        face="新細明體">L</font></p>  
+        </td>  
+        <td bgcolor="#00FFFF"><font  
+        face="新細明體">多方塊嗎?</font><p align="center"><font  
+        face="新細明體">n-OMINO</font></p>  
+        </td>  
+    </tr>  
+  
+  </center>
+    <tr>  
+        <td align="left" bgcolor="#C0C0C0"><p align="left"><font  
+        face="新細明體">12=2*6</font></p>  
+        </td>  
+        <td bgcolor="#C0C0C0"><p align="left"><font  
+        size="3" face="新細明體">2=</font><font  
+        color="#FF0000" size="3" face="新細明體">1</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">1</font><font  
+        size="3" face="新細明體">^2</font></p>  
+        </td>  
+        <td bgcolor="#C0C0C0"><p align="left"><font  
+        face="新細明體">0</font></p>  
+        </td>  
+        <td bgcolor="#C0C0C0"><p align="left"><font  
+        color="#FF00FF" face="新細明體">0</font></p>  
+        </td>  
+  <center>  
+  
+        <td bgcolor="#C0C0C0"><font  
+        face="新細明體">false否</font></td>  
+    </tr>  
+  
+  </center>
+    <tr>  
+        <td align="left"><p align="left"><font  
+        face="新細明體">30=5*6</font></p>  
+        </td>  
+  <center>  
+  
+        <td><font size="3" face="新細明體">5=</font><font  
+        color="#FF0000" size="3" face="新細明體">1</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">2</font><font  
+        size="3" face="新細明體">^2</font></td>  
+        <td><font face="新細明體">1</font></td>  
+        <td><font color="#0000FF"  
+        face="新細明體">1</font></td>  
+        <td><font face="新細明體">true是</font></td>  
+    </tr>  
+    <tr>  
+        <td bgcolor="#C0C0C0"><font  
+        face="新細明體">48=8*6</font></td>  
+        <td bgcolor="#C0C0C0"><font size="3"  
+        face="新細明體">8=</font><font color="#FF0000"  
+        size="3" face="新細明體">2</font><font size="3"  
+        face="新細明體">^2+</font><font color="#FF0000"  
+        size="3" face="新細明體">2</font><font size="3"  
+        face="新細明體">^2</font></td>  
+        <td bgcolor="#C0C0C0"><font  
+        face="新細明體">0</font></td>  
+        <td bgcolor="#C0C0C0"><font color="#FF00FF"  
+        face="新細明體">0</font></td>  
+        <td bgcolor="#C0C0C0"><font  
+        face="新細明體">false否</font></td>  
+    </tr>  
+    <tr>  
+        <td><font face="新細明體">60=10*6</font></td>  
+        <td><font size="3" face="新細明體">10=</font><font  
+        color="#FF0000" size="3" face="新細明體">1</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">3</font><font  
+        size="3" face="新細明體">^2</font></td>  
+        <td><font face="新細明體">4</font></td>  
+        <td><font color="#0000FF"  
+        face="新細明體">2</font></td>  
+        <td><font face="新細明體">true是</font></td>  
+    </tr>  
+    <tr>  
+        <td><font face="新細明體">78=13*6</font></td>  
+        <td><font size="3" face="新細明體">13=</font><font  
+        color="#FF0000" size="3" face="新細明體">2</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">3</font><font  
+        size="3" face="新細明體">^2</font></td>  
+        <td>1</td>  
+        <td><font color="#0000FF">1</font></td>  
+        <td><font face="新細明體">true是</font></td>  
+    </tr>  
+    <tr>  
+        <td><font face="新細明體">102=17*6</font></td>  
+        <td><font size="3" face="新細明體">17=</font><font  
+        color="#FF0000" size="3" face="新細明體">1</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">4</font><font  
+        size="3" face="新細明體">^2</font></td>  
+        <td>9</td>  
+        <td><font color="#0000FF">3</font></td>  
+        <td><font face="新細明體">true是</font></td>  
+    </tr>  
+    <tr>  
+        <td bgcolor="#C0C0C0"><font  
+        face="新細明體">108=18*6</font></td>  
+        <td bgcolor="#C0C0C0"><font size="3"  
+        face="新細明體">18=</font><font color="#FF0000"  
+        size="3" face="新細明體">3</font><font size="3"  
+        face="新細明體">^2+</font><font color="#FF0000"  
+        size="3" face="新細明體">3</font><font size="3"  
+        face="新細明體">^2</font></td>  
+        <td bgcolor="#C0C0C0">0</td>  
+        <td bgcolor="#C0C0C0"><font color="#FF00FF">0</font></td>  
+        <td bgcolor="#C0C0C0"><font  
+        face="新細明體">false否</font></td>  
+    </tr>  
+    <tr>  
+        <td><font face="新細明體">120=20*6</font></td>  
+        <td><font size="3" face="新細明體">20=</font><font  
+        color="#FF0000" size="3" face="新細明體">2</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">4</font><font  
+        size="3" face="新細明體">^2</font></td>  
+        <td>4</td>  
+        <td><font color="#0000FF">2</font></td>  
+        <td><font face="新細明體">true是</font></td>  
+    </tr>  
+    <tr>  
+        <td><font face="新細明體">150=25*6</font></td>  
+        <td><font size="3" face="新細明體">25=</font><font  
+        color="#FF0000" size="3" face="新細明體">3</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">4</font><font  
+        size="3" face="新細明體">^2</font></td>  
+        <td>1</td>  
+        <td><font color="#0000FF">1</font></td>  
+        <td><font face="新細明體">true是</font></td>  
+    </tr>  
+    <tr>  
+        <td><font face="新細明體">156=26*6</font></td>  
+        <td><font size="3" face="新細明體">26=</font><font  
+        color="#FF0000" size="3" face="新細明體">1</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">5</font><font  
+        size="3" face="新細明體">^2</font></td>  
+        <td>16</td>  
+        <td><font color="#0000FF">4</font></td>  
+        <td><font face="新細明體">true是</font></td>  
+    </tr>  
+    <tr>  
+        <td><font face="新細明體">174=29*6</font></td>  
+        <td><font size="3" face="新細明體">29=</font><font  
+        color="#FF0000" size="3" face="新細明體">2</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">5</font><font  
+        size="3" face="新細明體">^2</font></td>  
+        <td>9</td>  
+        <td><font color="#0000FF">3</font></td>  
+        <td><font face="新細明體">true是</font></td>  
+    </tr>  
+    <tr>  
+        <td bgcolor="#C0C0C0"><font  
+        face="新細明體">192=32*6</font></td>  
+        <td bgcolor="#C0C0C0"><font size="3"  
+        face="新細明體">32=</font><font color="#FF0000"  
+        size="3" face="新細明體">4</font><font size="3"  
+        face="新細明體">^2+</font><font color="#FF0000"  
+        size="3" face="新細明體">4</font><font size="3"  
+        face="新細明體">^2</font></td>  
+        <td bgcolor="#C0C0C0">0</td>  
+        <td bgcolor="#C0C0C0"><font color="#FF00FF">0</font></td>  
+        <td bgcolor="#C0C0C0"><font  
+        face="新細明體">false否</font></td>  
+    </tr>  
+    <tr>  
+        <td><font face="新細明體">204=34*6</font></td>  
+        <td><font size="3" face="新細明體">34=</font><font  
+        color="#FF0000" size="3" face="新細明體">3</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">5</font><font  
+        size="3" face="新細明體">^2</font></td>  
+        <td>4</td>  
+        <td><font color="#0000FF">2</font></td>  
+        <td><font face="新細明體">true是</font></td>  
+    </tr>  
+    <tr>  
+        <td><font face="新細明體">222=37*6</font></td>  
+        <td><font size="3" face="新細明體">37=</font><font  
+        color="#FF0000" size="3" face="新細明體">1</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">6</font><font  
+        size="3" face="新細明體">^2</font></td>  
+        <td>25</td>  
+        <td><font color="#0000FF">5</font></td>  
+        <td><font face="新細明體">true是</font></td>  
+    </tr>  
+    <tr>  
+        <td><font face="新細明體">240=40*6</font></td>  
+        <td><font size="3" face="新細明體">40=</font><font  
+        color="#FF0000" size="3" face="新細明體">2</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">6</font><font  
+        size="3" face="新細明體">^2</font></td>  
+        <td>16</td>  
+        <td><font color="#0000FF">4</font></td>  
+        <td><font face="新細明體">true是</font></td>  
+    </tr>  
+    <tr>  
+        <td><font face="新細明體">246=41*6</font></td>  
+        <td><font size="3" face="新細明體">41=</font><font  
+        color="#FF0000" size="3" face="新細明體">4</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">5</font><font  
+        size="3" face="新細明體">^2</font></td>  
+        <td>1</td>  
+        <td><font color="#0000FF">1</font></td>  
+        <td><font face="新細明體">true是</font></td>  
+    </tr>  
+    <tr>  
+        <td><font face="新細明體">270=45*6</font></td>  
+        <td><font size="3" face="新細明體">45=</font><font  
+        color="#FF0000" size="3" face="新細明體">3</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">6</font><font  
+        size="3" face="新細明體">^2</font></td>  
+        <td>9</td>  
+        <td><font color="#0000FF">3</font></td>  
+        <td><font face="新細明體">true是</font></td>  
+    </tr>  
+    <tr>  
+        <td><font face="新細明體">300=50*6</font></td>  
+        <td><font size="3" face="新細明體">50=</font><font  
+        color="#FF0000" size="3" face="新細明體">1</font><font  
+        size="3" face="新細明體">^2+</font><font  
+        color="#FF0000" size="3" face="新細明體">7</font><font  
+        size="3" face="新細明體">^2</font></td>  
+        <td>36</td>  
+        <td><font color="#0000FF">6</font></td>  
+        <td><font face="新細明體">true是</font></td>  
+    </tr>  
+    <tr>  
+        <td bgcolor="#C0C0C0"><font  
+        face="新細明體">300=50*6</font></td>  
+        <td bgcolor="#C0C0C0"><font size="3"  
+        face="新細明體">50=</font><font color="#FF0000"  
+        size="3" face="新細明體">5</font><font size="3"  
+        face="新細明體">^2+</font><font color="#FF0000"  
+        size="3" face="新細明體">5</font><font size="3"  
+        face="新細明體">^2</font></td>  
+        <td bgcolor="#C0C0C0">0</td>  
+        <td bgcolor="#C0C0C0"><font color="#FF00FF">0</font></td>  
+        <td bgcolor="#C0C0C0"><font  
+        face="新細明體">false否</font></td>  
+    </tr>  
+</table>  
+  
+  </center>
+</div>
+  
+<ul>  
+    <li><a  
+        href="http://mathworld.wolfram.com/PythagoreanTheorem.html"><font  
+        face="新細明體">Pythagorean Theorem</font></a> <font     
+        face="新細明體">by Eric W. Weisstein and Wolfram  
+        Research, Inc.</font></li>  
+    <li><a  
+        href="http://www.research.att.com/cgi-bin/access.cgi/as/njas/sequences/eisA.cgi?Anum=A024509"><font  
+        face="新細明體">Sum of 2 nonzero squares, including  
+        repetitions</font></a><font face="新細明體"> by Clark  
+        Kimberling .</font></li>  
+    <li><font face="Times New Roman">Find </font><a  
+        href="http://wims.unice.fr/~wims/wims.cgi?session=CI01A0BFDD.2&amp;lang=en&amp;module=tool%2Fnumber%2Ftwosquares.en"><font  
+        face="新細明體">Two squares</font></a><font  
+        face="新細明體"> by XIAO Gang .</font></li>  
+    <li><font face="新細明體">Find more unfolding diagrams </font><a  
+        href="http://www.geocities.com/liviozuc/tocoverasolid.html"><font  
+        size="3" face="新細明體"><b>To cover a solid</b></font></a><font  
+        size="4" face="新細明體"><b> </b></font><font  
+        face="新細明體">by </font><a  
+        href="http://www.geocities.com/liviozuc/homepage.html"><font  
+        face="新細明體">Livio Zucca</font></a><font  
+        face="新細明體"> .</font></li>  
+    <li><font face="新細明體">&quot;Much more material has been  
+        discovered by expert polyformist </font><a  
+        href="http://www.mathpuzzle.com/iamond.htm"><font  
+        face="新細明體">Michael Dowle</font></a><font  
+        face="新細明體"> .&quot; (Ref: mathpuzzle.com)</font></li>  
+    <li><font face="新細明體">&quot;An </font><a  
+        href="http://www.ecs.soton.ac.uk/~de397/project/Iamonds.html"><font  
+        face="新細明體">Iamond solver applet</font></a><font  
+        face="新細明體"> has been written by Daniel Elphick. It solves both hexiamond and heptiamond problems.&quot; (Ref:  
+        mathpuzzle.com)</font></li>  
+</ul>  
+  
+<hr align="center">
+  
+<ul>  
+    <li><font size="3" face="新細明體">選 a=3, b=5, L=2     
+        由上表查得</font><font face="新細明體">，</font><font  
+        size="3" face="新細明體">每一個面的面積 34 = 3^2     
+        + 5^2 </font><font face="新細明體">，</font><font     
+        size="3" face="新細明體">六個面共 204 個小正方形</font><font     
+        face="新細明體">，再加上兩個扣環共 210個正方形。</font></li>     
+    <li><font face="新細明體">因為 24個『奇』屬性的六格骨牌是<font color="#0000FF">黑白平衡的</font>，所以不必再考慮。</font></li>    
+    <li><font face="新細明體">11個『偶』屬性的六格骨牌，<font color="#0000FF">黑白均相差     
+        2 都是不平衡的，但偶數個偶屬性骨牌卻是平衡的</font>。所以安排兩個扣環，必須詳細計算，使</font><font    
+        color="#0000FF" face="新細明體">黑白方格相差 </font><font color="#0000FF"><font face="新細明體">2或     
+      6,10</font></font><font face="新細明體"><font color="#0000FF">,14,18,22</font>。</font></li> 
+    <li><font face="新細明體">運用上述原理及黑白棋盤定理推算出：     
+        35 塊 6 格骨牌，可以佈滿一個正立方體盒子的展開圖，為了達到盒子的功能，記得剪貼時有3塊空白三角形不可以上膠。</font></li>    
+</ul> 
+ 
+<p align="center"><img src="image/hexcube35.gif" width="541" height="782"></p> 
+ 
+<ul> 
+    <li><font face="新細明體">Reference: </font><font     
+        size="4" face="新細明體">POLYOMINOES </font><font  
+        size="3" face="新細明體">A Guide to Puzzles and  
+        Problems in Tiling by GEORGE E. MARTIN. P.72,73,101,102,153,178.</font></li>  
+    <li><font size="3" face="新細明體">Let a=3, b=5, L=2 and  
+        one face= 34 = 3^2 + 5^2 and six faces = 204 unit squares.  
+        Let's add two buckle= 6 unit squares and Total= 210.</font></li>  
+    <li><font size="3" face="新細明體">The 24 &quot;<strong>odd</strong>&quot;  
+        Hexominoes are </font><font color="#0000FF" size="3"  
+        face="新細明體">balanced</font><font size="3"  
+        face="新細明體"> can be neglected.</font></li>  
+    <li><font size="3" face="新細明體">The 11 &quot;<strong>even</strong>&quot;  
+        Hexominoes are </font><font color="#0000FF" size="3"  
+        face="新細明體">unbalanced</font><font size="3"  
+        face="新細明體"> and how to set them at the right  
+        positions ?</font></li>  
+    <li><font size="3" face="新細明體">Calculate the no. of  
+        &quot;</font><font color="#0000FF" size="3"  
+        face="新細明體">Black</font><font size="3"  
+        face="新細明體">&quot; and &quot;</font><font  
+        color="#0000FF" size="3" face="新細明體">White</font><font  
+        size="3" face="新細明體">&quot; unit squares and let  
+        them differ from <font color="#0000FF">2 ( or 6, 10, 14, 18, 22 ).</font></font></li> 
+    <li><font size="3" face="新細明體">This is a box with  
+        &quot;Buckles&quot; so there are 3 triangles &quot;Don't  
+        Paste&quot;.</font></li>  
+</ul>  
+  
+<hr align="center">  
+  
+<ul>  
+    <li><font face="新細明體">如果不要一對扣環呢 ?     
+        擦掉黑格: 4個及白格: 2個,不就搞定了 ? (     
+        剩下黑格:104 白格:100 )</font></li>     
+</ul>  
+  
+<p align="center"><img src="image/34hexcube.gif" width="499" height="712"></p>  
+  
+<ul>  
+    <li><font face="新細明體">Guess who can live in a 34  
+        Hexominoes covered cube ?</font></li>  
+    <li><font face="新細明體">If you don't like the buckles ?  
+        Erase Black: 4 White: 2 ? ( Remain Black:104 White:100 )</font></li>  
+</ul>  
+  
+<hr>
+<ul>
+  <li>
+    <p align="left"><font face="新細明體">1~100的 &quot;Z&quot; 用<b>降</b>子的整理方式是否更容易理解呢？注意一下   
+    50,65,85 各有兩組解。</font></li>  
+</ul>
+<p align="center"><font face="新細明體">&nbsp;<strong><font color="#008000" size="4">1~100 &quot;Z&quot;   
+圖形的座標表示&nbsp;&nbsp; </font><font size="3">Z= c^2=</font></strong><font size="3">   
+<strong>(row=<font color="#FF0000">b</font>)^2 + (column=<font color="#FF0000">a</font>)^2</strong></font></font></p>
+<div align="center">
+  <center>
+  <table border="1" cellspacing="3" width="651" bordercolor="#808080" bordercolorlight="#808080" height="261" bordercolordark="#C0C0C0">
+    <tr>
+      <td width="65" height="26" align="center">
+        <p align="center"><font color="#FF0000" face="新細明體">b&nbsp;   
+        \&nbsp;&nbsp; a</font></td>  
+      <td width="95" height="26" align="center"><font color="#FF0000" face="新細明體">1</font></td>
+      <td width="80" height="26" align="center"><font color="#FF0000" face="新細明體">2</font></td>
+      <td width="81" height="26" align="center"><font color="#FF0000" face="新細明體">3</font></td>
+      <td width="81" height="26" align="center"><font color="#FF0000" face="新細明體">4</font></td>
+      <td width="81" height="26" align="center"><font color="#FF0000" face="新細明體">5</font></td>
+      <td width="83" height="26" align="center"><font color="#FF0000" face="新細明體">6</font></td>
+      <td width="79" height="26" align="center"><font color="#FF0000" face="新細明體">7</font></td>
+    </tr>
+    <tr>
+      <td width="65" height="26" align="center"><font color="#FF0000" face="新細明體">1</font></td>
+      <td width="95" height="26" align="center"><span style="background-color: #C0C0C0"><font face="新細明體"><font color="#000000">2,&nbsp;&nbsp;&nbsp;   
+        L= </font><font color="#FF00FF">0</font></font></span></td>  
+      <td width="80" height="26" align="center"></td>
+      <td width="81" height="26" align="center"></td>
+      <td width="81" height="26" align="center"></td>
+      <td width="81" height="26" align="center">
+        <p align="center"></td>
+      <td width="83" height="26" align="center"></td>
+      <td width="79" height="26" align="center"></td>
+    </tr>
+    <tr>
+      <td width="65" height="26" align="center"><font color="#FF0000" face="新細明體">2</font></td>
+      <td width="95" height="26" align="center"><font face="新細明體"><font color="#000000">5,&nbsp;&nbsp;&nbsp;   
+        L= </font><font color="#0000FF">1</font></font></td>  
+      <td width="80" height="26" align="center"><span style="background-color: #C0C0C0"><font face="新細明體"><font color="#000000">8,&nbsp;&nbsp;&nbsp;   
+        L= </font><font color="#FF00FF">0</font></font></span></td>  
+      <td width="81" height="26" align="center"></td>
+      <td width="81" height="26" align="center"></td>
+      <td width="81" height="26" align="center"></td>
+      <td width="83" height="26" align="center"></td>
+      <td width="79" height="26" align="center"></td>
+    </tr>
+    <tr>
+      <td width="65" height="26" align="center"><font color="#FF0000" face="新細明體">3</font></td>
+      <td width="95" height="26" align="center"><font face="新細明體"><font color="#000000">10,&nbsp;   
+        L= </font><font color="#0000FF">2</font></font></td>  
+      <td width="80" height="26" align="center"><font face="新細明體"><font color="#000000">13,&nbsp;   
+        L= </font><font color="#0000FF">1</font></font></td>  
+      <td width="81" height="26" align="center"><span style="background-color: #C0C0C0"><font face="新細明體"><font color="#000000">18,&nbsp;   
+        L= </font><font color="#FF00FF">0</font></font></span></td>  
+      <td width="81" height="26" align="center"></td>
+      <td width="81" height="26" align="center"></td>
+      <td width="83" height="26" align="center"></td>
+      <td width="79" height="26" align="center"></td>
+    </tr>
+    <tr>
+      <td width="65" height="26" align="center"><font color="#FF0000" face="新細明體">4</font></td>
+      <td width="95" height="26" align="center"><font face="新細明體"><font color="#000000">17,&nbsp;   
+        L= </font><font color="#0000FF">3</font></font></td>  
+      <td width="80" height="26" align="center"><font face="新細明體"><font color="#000000">20,&nbsp;   
+        L= </font><font color="#0000FF">2</font></font></td>  
+      <td width="81" height="26" align="center"><font face="新細明體"><font color="#000000">25,&nbsp;   
+        L= </font><font color="#0000FF">1</font></font></td>  
+      <td width="81" height="26" align="center"><span style="background-color: #C0C0C0"><font face="新細明體"><font color="#000000">32,&nbsp;   
+        L= </font><font color="#FF00FF">0</font></font></span></td>  
+      <td width="81" height="26" align="center"></td>
+      <td width="83" height="26" align="center"></td>
+      <td width="79" height="26" align="center"></td>
+    </tr>
+    <tr>
+      <td width="65" height="26" align="center"><font color="#FF0000" face="新細明體">5</font></td>
+      <td width="95" height="26" align="center"><font face="新細明體"><font color="#000000">26,&nbsp;   
+        L= </font><font color="#0000FF">4</font></font></td>  
+      <td width="80" height="26" align="center"><font face="新細明體"><font color="#000000">29,&nbsp;   
+        L= </font><font color="#0000FF">3</font></font></td>  
+      <td width="81" height="26" align="center"><font face="新細明體"><font color="#000000">34,&nbsp;   
+        L= </font><font color="#0000FF">2</font></font></td>  
+      <td width="81" height="26" align="center"><font face="新細明體"><font color="#000000">41,&nbsp;   
+        L= </font><font color="#0000FF">1</font></font></td>  
+      <td width="81" height="26" align="center"><span style="background-color: #C0C0C0"><font face="新細明體"><font color="#000000">50,&nbsp;   
+        L= </font><font color="#FF00FF">0</font></font></span></td>  
+      <td width="83" height="26" align="center"></td>
+      <td width="79" height="26" align="center"></td>
+    </tr>
+    <tr>
+      <td width="65" height="26" align="center"><font color="#FF0000" face="新細明體">6</font></td>
+      <td width="95" height="26" align="center"><font face="新細明體"><font color="#000000">37,&nbsp;   
+        L= </font><font color="#0000FF">5</font></font></td>  
+      <td width="80" height="26" align="center"><font face="新細明體"><font color="#000000">40,&nbsp;   
+        L= </font><font color="#0000FF">4</font></font></td>  
+      <td width="81" height="26" align="center"><font face="新細明體"><font color="#000000">45,&nbsp;   
+        L= </font><font color="#0000FF">3</font></font></td>  
+      <td width="81" height="26" align="center"><font face="新細明體"><font color="#000000">52,&nbsp;   
+        L= </font><font color="#0000FF">2</font></font></td>  
+      <td width="81" height="26" align="center"><font face="新細明體"><font color="#000000">61,&nbsp;   
+        L= </font><font color="#0000FF">1</font></font></td>  
+      <td width="83" height="26" align="center"><span style="background-color: #C0C0C0"><font face="新細明體"><font color="#000000">72,&nbsp;&nbsp;&nbsp;   
+        L= </font><font color="#FF00FF">0</font></font></span></td>  
+      <td width="79" height="26" align="center"></td>
+    </tr>
+    <tr>
+      <td width="65" height="26" align="center"><font color="#FF0000" face="新細明體">7</font></td>
+      <td width="95" height="26" align="center"><font face="新細明體"><font color="#000000">50,&nbsp;   
+        L= </font><font color="#0000FF">6</font></font></td>  
+      <td width="80" height="26" align="center"><font face="新細明體"><font color="#000000">53,&nbsp;   
+        L= </font><font color="#0000FF">5</font></font></td>  
+      <td width="81" height="26" align="center"><font face="新細明體"><font color="#000000">58,&nbsp;   
+        L= </font><font color="#0000FF">4</font></font></td>  
+      <td width="81" height="26" align="center"><font face="新細明體"><font color="#000000">65,&nbsp;   
+        L= </font><font color="#0000FF">3</font></font></td>  
+      <td width="81" height="26" align="center"><font face="新細明體"><font color="#000000">74,&nbsp;   
+        L= </font><font color="#0000FF">2</font></font></td>  
+      <td width="83" height="26" align="center"><font face="新細明體"><font color="#000000">85,&nbsp;&nbsp;&nbsp;   
+        L= </font><font color="#0000FF">1</font></font></td>  
+      <td width="79" height="26" align="center"><span style="background-color: #C0C0C0"><font face="新細明體"><font color="#000000">98,&nbsp;   
+        L= </font><font color="#FF00FF">0</font></font></span></td>  
+    </tr>
+    <tr>
+      <td width="65" height="26" align="center"><font color="#FF0000" face="新細明體">8</font></td>
+      <td width="95" height="26" align="center"><font face="新細明體"><font color="#000000">65,&nbsp;   
+        L= </font><font color="#0000FF">7</font></font></td>  
+      <td width="80" height="26" align="center"><font face="新細明體"><font color="#000000">68,&nbsp;   
+        L= </font><font color="#0000FF">6</font></font></td>  
+      <td width="81" height="26" align="center"><font face="新細明體"><font color="#000000">73,&nbsp;   
+        L= </font><font color="#0000FF">5</font></font></td>  
+      <td width="81" height="26" align="center"><font face="新細明體"><font color="#000000">80,&nbsp;   
+        L= </font><font color="#0000FF">4</font></font></td>  
+      <td width="81" height="26" align="center"><font face="新細明體"><font color="#000000">89,&nbsp;   
+        L= </font><font color="#0000FF">3</font></font></td>  
+      <td width="83" height="26" align="center"><font face="新細明體"><font color="#000000">100,&nbsp;   
+        L= </font><font color="#0000FF">2</font></font></td>  
+      <td width="79" height="26" align="center"></td>
+    </tr>
+    <tr>
+      <td width="65" height="27" align="center"><font color="#FF0000" face="新細明體">9</font></td>
+      <td width="95" height="27" align="center"><font face="新細明體"><font color="#000000">82,&nbsp;   
+        L= </font><font color="#0000FF">8</font></font></td>  
+      <td width="80" height="27" align="center"><font face="新細明體"><font color="#000000">85,&nbsp;   
+        L= </font><font color="#0000FF">7</font></font></td>  
+      <td width="81" height="27" align="center"><font face="新細明體"><font color="#000000">90,&nbsp;   
+        L= </font><font color="#0000FF">6</font></font></td>  
+      <td width="81" height="27" align="center"><font face="新細明體"><font color="#000000">97,&nbsp;   
+        L= </font><font color="#0000FF">5</font></font></td>  
+      <td width="81" height="27" align="center"></td>
+      <td width="83" height="27" align="center"></td>
+      <td width="79" height="27" align="center"></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<ul>
+  <li><font face="新細明體">如果 &quot;Z&quot; 是平方數，那 a,b,c   
+    就是一組整數解而稱為畢達哥拉數 ( Pythagorean Triples ) 。</font></li>  
+  <li><font face="新細明體">假定 a,b 是正整數，那麼 | a^2- b^2 | ,   
+    2ab , a^2+ b^2 就是畢達哥拉數。</font></li>  
+  <li><font face="新細明體">參考網站：<font color="#000000"><a href="http://chung.chsh.chc.edu.tw/bee/new/midi/index.htm">畢氏定理證明大集合</a> 
+    by <a href="http://chung.chsh.chc.edu.tw/bee/new/first.htm">bee美麗之家</a>、<a href="http://www.math.tku.edu.tw/mathhall/mathinfo/lwymath/Pytha.htm">商高定理</a>、<a href="http://www.edp.ust.hk/math/history/5/5_5/5_5_3.htm">勾股定理</a></font>。</font></li>  
+  <li><font face="新細明體">以下的表格參考國外網站節錄，把m,n改成   
+    a,b不管大小加上絕對值符號是否更好記憶呢？</font></li>
+</ul>
+<p align="center"><font face="新細明體"><strong><font color="#008000" size="4">1~100 &quot;</font></strong><font color="#800000" size="4">畢達哥拉數<strong>&nbsp;</strong>   
+| a^2- b^2 | , 2ab , a^2+ b^2 </font><strong><font color="#008000" size="4">&quot;   
+的座標表示</font></strong></font></p>
+<div align="center">
+  <center>
+<table border="1" cellspacing="3" width="581" bordercolor="#808080" bordercolorlight="#808080" height="261" bordercolordark="#C0C0C0">
+  <tr>
+    <td width="82" height="26" align="center">
+      <p align="center"><font color="#FF0000" face="新細明體">b&nbsp;   
+      \&nbsp;&nbsp; a</font></td>  
+    <td width="82" height="26" align="center"><font color="#FF0000" face="新細明體">1</font></td>
+    <td width="82" height="26" align="center"><font color="#FF0000" face="新細明體">2</font></td>
+    <td width="82" height="26" align="center"><font color="#FF0000" face="新細明體">3</font></td>
+    <td width="82" height="26" align="center"><font color="#FF0000" face="新細明體">4</font></td>
+    <td width="82" height="26" align="center"><font color="#FF0000" face="新細明體">5</font></td>
+    <td width="83" height="26" align="center"><font color="#FF0000" face="新細明體">6</font></td>
+  </tr>
+  <tr>
+    <td width="82" height="26" align="center"><font color="#FF0000" face="新細明體">2</font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">3,4,5&nbsp;&nbsp;&nbsp;</font></td>
+    <td width="82" height="26" align="center"></td>
+    <td width="82" height="26" align="center"></td>
+    <td width="82" height="26" align="center"></td>
+    <td width="82" height="26" align="center"></td>
+    <td width="83" height="26" align="center"></td>
+  </tr>
+  <tr>
+    <td width="82" height="26" align="center"><font color="#FF0000" face="新細明體">3</font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">8,6,10</font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">5,12,13</font></td>
+    <td width="82" height="26" align="center"></td>
+    <td width="82" height="26" align="center"></td>
+    <td width="82" height="26" align="center"></td>
+    <td width="83" height="26" align="center"></td>
+  </tr>
+  <tr>
+    <td width="82" height="26" align="center"><font color="#FF0000" face="新細明體">4</font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">15,8,17</font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">12,16,20</font></td>
+    <td width="82" height="26" align="center"><font face="新細明體">7,24,<font color="#000000">25</font></font></td>
+    <td width="82" height="26" align="center"></td>
+    <td width="82" height="26" align="center"></td>
+    <td width="83" height="26" align="center"></td>
+  </tr>
+  <tr>
+    <td width="82" height="26" align="center"><font color="#FF0000" face="新細明體">5</font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">24,10,26</font></td>
+    <td width="82" height="26" align="center"><font face="新細明體">21,20,<font color="#000000">29</font></font></td>
+    <td width="82" height="26" align="center"><font face="新細明體">16,30,<font color="#000000">34</font></font></td>
+    <td width="82" height="26" align="center"><font face="新細明體">9,40,<font color="#000000">41</font></font></td>
+    <td width="82" height="26" align="center"></td>
+    <td width="83" height="26" align="center"></td>
+  </tr>
+  <tr>
+    <td width="82" height="26" align="center"><font color="#FF0000" face="新細明體">6</font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">35,12,37</font></td>
+    <td width="82" height="26" align="center"><font face="新細明體">32,24,<font color="#000000">40</font></font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">27,36,45</font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">20,48,52</font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">11,60,61</font></td>
+    <td width="83" height="26" align="center"></td>
+  </tr>
+  <tr>
+    <td width="82" height="26" align="center"><font color="#FF0000" face="新細明體">7</font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">48,14,50</font></td>
+    <td width="82" height="26" align="center"><font face="新細明體">45,28,<font color="#000000">53</font></font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">40,42,58</font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">33,56,65</font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">24,70,74</font></td>
+    <td width="83" height="26" align="center"><font color="#000000" face="新細明體">13,84,85</font></td>
+  </tr>
+  <tr>
+    <td width="82" height="26" align="center"><font color="#FF0000" face="新細明體">8</font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">63,16,65</font></td>
+    <td width="82" height="26" align="center"><font face="新細明體">60,32,<font color="#000000">68</font></font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">55,48,73</font></td>
+    <td width="82" height="26" align="center"><font color="#000000" face="新細明體">48,64,80</font></td>
+    <td width="82" height="26" align="center"><font face="新細明體">39,80,<font color="#000000">89</font></font></td>
+    <td width="83" height="26" align="center"><font color="#000000" face="新細明體">28,96,100</font></td>
+  </tr>
+  <tr>
+    <td width="82" height="27" align="center"><font color="#FF0000" face="新細明體">9</font></td>
+    <td width="82" height="27" align="center"><font color="#000000" face="新細明體">80,18,82</font></td>
+    <td width="82" height="27" align="center"><font color="#000000" face="新細明體">77,36,85</font></td>
+    <td width="82" height="27" align="center"><font color="#000000" face="新細明體">72,54,90</font></td>
+    <td width="82" height="27" align="center"><font color="#000000" face="新細明體">65,72,97</font></td>
+    <td width="82" height="27" align="center"></td>
+    <td width="83" height="27" align="center"></td>
+  </tr>
+</table>
+  </center>
+</div>
+<ul>
+  <li>
+    <p align="left">ref. <a href="http://www.math.uic.edu/~fields/puzzle/triples.html">Generating   
+    <font face="新細明體">Pythagorean Triples&nbsp;</font></a></li>  
+  <li>
+    <p align="left"><font face="新細明體">2002/1/21 addendum</font></li>  
+</ul>
+  
+<hr align="center">  
+  
+<ul>  
+    <li><a href="index.htm"><font face="新細明體">Back Home</font></a></li>  
+    <li><a href="note1.htm"><font face="新細明體">Back to  
+        Note 1</font></a></li>  
+    <li><a href="note11.htm"><font face="新細明體">Back to  
+        Note 1.1 &quot;Z&quot; shape </font></a></li>  
+    <li><a href="note12.htm"><font face="新細明體">Back to  
+        Note 1.2 &quot;Duck&quot; shape </font></a></li>  
+    <li><a href="note13.htm"><font face="新細明體">Back to  
+        Note 1.3 &quot;Left-hand Gun&quot; shape </font></a></li>  
+</ul>  
+</body>  
+</html>  
